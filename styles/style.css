@@ -232,4 +232,125 @@ margin-bottom: -100px;
      
 } */
  /* fourth page content */
- 
+ .fourth-page{
+     
+     text-align: center;
+     padding-top: 0px;
+     padding-bottom: 100px;
+     background-color: black;
+     font-family: Inter;
+ }
+ .main-header{
+padding-left: 380px;
+padding-right: 380px;
+padding-bottom: 50px;
+
+margin-bottom: -16px;
+padding-top: 50px;
+
+ }
+ .small-heading{
+     font-size: 28px;
+     font-weight: 900
+}
+ .table-content{
+     display: flex;
+     justify-content: space-between;
+     padding-left: 180px;
+     padding-right: 180px;
+     padding-bottom: 70px;
+     background-color:  rgb(34, 34, 34);;
+     
+ }
+ .table-element{
+     padding-top: px;
+     border-collapse: collapse;
+ }
+ .top-line{
+     color: white;
+
+
+ }
+ th,td{
+     padding: 15px;
+ }
+.form-input{
+     border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+color:  rgba(255, 255, 255, 0.6);
+
+
+padding: 10px 15px 10px 15px;
+
+}
+.joint-form{
+     display: flex;
+     justify-content: center;
+     gap: 6px;
+     margin-top: 10px;
+    
+}
+.age{
+     margin-left: -50px;
+}
+.gender{
+    width: 180px; 
+    margin-right: -50px;
+    
+}
+.activity{
+     width: 370px;
+     margin-bottom: 50px;
+     margin-top: 10px;
+}
+.description{
+     margin-bottom: 55px;
+}
+.calculator{
+     margin-left: 100px;
+     margin-top: -20px;
+}
+
+/* @media screen and (max-width:576px) {
+     
+} */
+ /* fifth page content */
+ .fifth-page{
+     background-color: black;
+     padding: 10px 170px 70px 170px;
+     font-family: Inter;
+
+ }
+ .fifth-content{
+     text-align: center;
+     padding-bottom: 50px;
+ }
+.fifth-page-pics{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     row-gap: 15px;
+     column-gap: 10px;
+     background-color: rgb(32, 32, 32);
+     border-radius: 18px;
+     padding: 10px 15px 10px 6px;
+
+}
+.fifth-page-pics img{
+     height: 270px;
+     width: 320px;
+     border-radius: 18px;
+}
+/* unique page */
+.unique{
+     background-color: black;
+     padding-top: 50px;
+     text-align: center;
+     font-family: Inter;
+}
+/* @media screen and (max-width:576){
+     
+/*  
+/* footer page */
+.footer{
+     background-color: rgb(37, 37, 37); 
+}
