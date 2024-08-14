@@ -1,0 +1,156 @@
+.red{
+     color: #E6533C;
+    
+}
+.heading{
+     font-size: 30px;
+     font-weight: 800;
+     font-family: Inter;
+     font-style: italic;
+}
+.background{
+     background-color: #E6533C;
+     border-radius: 15px;
+   padding: 4px 10px 4px 10px;
+    
+}
+nav a{
+     text-decoration: none;
+     color: white;
+}
+.icons{
+     border: 2px solid grey;
+     border-radius: 35px;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     padding-right: 10px;
+   
+     
+}
+.front-page{
+     
+     background-color:#222222 ;
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.front-page{
+     padding-left: 140px;
+     padding-top: 30px;
+     padding-right: 130px;
+}
+.slogan{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 50px;
+font-weight: 800;
+
+
+text-align: left;
+}
+.font-style{
+     font-family: Miama;
+     font-weight: 200px;
+}
+.content{
+     font-family: Inter;
+     font-size: 15px;
+     font-weight: 200px;
+     text-align: left;
+     color: rgba(255, 255, 255, 0.5);
+     margin-top: 15px;
+     margin-bottom: 50px;
+}
+.button{
+     height: 28px;
+     width: 120px;
+     border-radius: 15px;
+     gap: 10px;
+     text-decoration: none;
+     color: white;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     border: 2px solid gray;
+     border-radius: 15px;
+     padding: 3px;
+     
+}
+.seperate{
+     display: flex;
+   gap: 10px;
+}
+.picture{
+width: 300px;
+height: 550px;
+position: relative;
+
+}
+
+.section-item{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.card-one{
+     background-color: rgba(48, 48, 48, 0.54);
+ box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 5px;
+width: 200px;
+height: 90px;
+padding-left: 20px;
+padding-right: 20px;
+position: absolute;
+bottom: 50px;
+right: 350px;
+
+
+
+}
+.card-two{
+     background-color: rgba(48, 48, 48, 0.54);
+ box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2px;
+width: 200px;
+height: 130px;
+padding-left: 20px;
+padding-right: 20px;
+position: absolute;
+top: 260px;
+right: 50px;
+
+}
+.bold{
+     font-size: 40px;
+}
+.circle{
+     background-color: #E6533C;
+     height: 40px;
+     width: 40px;
+     border-radius: 100%;
+}
+/* responsive for smaller device
+@media screen and (max-width:576px) {
+     
+} */
+ 
