@@ -1,3 +1,4 @@
+
 .red{
      color: #E6533C;
     
@@ -74,7 +75,7 @@ text-align: left;
      align-items: center;
      justify-content: center;
      display: flex;
-     border: 2px solid gray;
+     border: 1px solid gray;
      border-radius: 15px;
      padding: 3px;
      
@@ -153,4 +154,82 @@ right: 50px;
 @media screen and (max-width:576px) {
      
 } */
+/* second page */
+.second-page{
+     background-color: black;
+     font-family: Inter;
+     padding-left: 170px;
+     padding-right: 170px;
+     padding-top: 110px;
+     padding-bottom: 110px;
+}
+.header-element{
+     
+    text-align: center;
+    
+}
+.headline{
+     font-size: 40px;
+     font-weight: 800px;
+     color: white;
+     
+
+}
+.paragraph{
+     color: rgba(255, 255, 255, 0.5);
+     margin-top: -15px;
+}
+.image-content{
+height: 200px;
+width: 200px;
+border-radius: 100%;
+}
+.photoes{
+display: flex;
+justify-content: space-around;
+gap: 50px;
+margin-top: 50px;
+}
+.topic{
+color: white;
+}
+.second-content{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+/* @media screen and (max-width:576px) {
+     
+} */
+
+/* 3rd page content */
+.third-page{
+     background-color: rgb(34, 34, 34);
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     font-family: Inter;
+     padding-left: 90px;
+     padding-right: 90px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     gap: 100px;
+     margin: 100px 180px 100px 180px;
+     border-radius: 18px;
+}
+.square-pic{
+     border-radius: 18px;
+     width: 366px;
+     height: 312px;
+}
+.back-color{
+background-color: black;
+margin-top: -100px;
+margin-bottom: -100px;
+}
+/* @media screen and (max-width:576px) {
+     
+} */
+ /* fourth page content */
  
