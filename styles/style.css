@@ -352,7 +352,7 @@ padding: 10px 15px 10px 15px;
 /*  
 /* footer page */
 .footer{
-     background-color: rgb(37, 37, 37);
+     
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -385,4 +385,16 @@ font-size: 25px;
 font-weight: 600;
 color: white;
 padding-bottom: -10px;
+}
+.line{
+    color: rgb(68, 66, 66);
+    margin-top: 10px;
+}
+.last-paragraph{
+     text-align: center;
+     color: antiquewhite;
+     padding-bottom: 20px;
+}
+.last-section{
+     background-color: rgb(37, 37, 37);
 }
