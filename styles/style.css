@@ -53,7 +53,7 @@ font-weight: 800;
 text-align: left;
 }
 .font-style{
-     font-family: Miama;
+     font-family:Brush Script MT;
      font-weight: 200px;
 }
 .content{
@@ -321,6 +321,19 @@ padding: 10px 15px 10px 15px;
      font-family: Inter;
 
  }
+ .img-pic{
+     position: relative;
+ }
+ .img-text{
+position: absolute;
+bottom: 6px;
+left: 10px;
+color: white;
+
+ }
+ .img-text p {
+     margin-top:-19px;
+     }
  .fifth-content{
      text-align: center;
      padding-bottom: 50px;
@@ -332,12 +345,12 @@ padding: 10px 15px 10px 15px;
      column-gap: 10px;
      background-color: rgb(32, 32, 32);
      border-radius: 18px;
-     padding: 10px 15px 10px 6px;
+     padding: 10px 15px 10px 10px;
 
 }
 .fifth-page-pics img{
      height: 270px;
-     width: 320px;
+     width: 275px;
      border-radius: 18px;
 }
 /* unique page */
